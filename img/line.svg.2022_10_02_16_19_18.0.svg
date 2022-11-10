@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   fill="none"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="line.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false" />
+  <g
+     clip-path="url(#clip0_247_8)"
+     id="g8"
+     transform="scale(0.96186918,1)"
+     style="fill-opacity:1;fill:url(#meshgradient73)">
+    <path
+       d="M 100,100 V 0 H 0 v 100 z"
+       fill="#ffffff"
+       fill-opacity="0.01"
+       id="path2"
+       style="fill-opacity:1.0" />
+    <path
+       d="M 52,25 77,50 52,75"
+       stroke="#000000"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path4"
+       style="fill-opacity:1;fill:url(#meshgradient218)" />
+    <path
+       d="M 67,50 H 42 17"
+       stroke="#000000"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path6"
+       style="fill-opacity:1.0" />
+  </g>
+  <defs
+     id="defs13">
+    <clipPath
+       id="clip0_247_8">
+      <rect
+         width="100"
+         height="100"
+         fill="white"
+         transform="translate(100) rotate(90)"
+         id="rect10" />
+    </clipPath>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient73"
+       gradientUnits="userSpaceOnUse"
+       x="0"
+       y="0">
+      <meshrow
+         id="meshrow75">
+        <meshpatch
+           id="meshpatch77">
+          <stop
+             path="c 33.3333,0  66.6667,0  100,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop79" />
+          <stop
+             path="c 0,33.3333  0,66.6667  0,100"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop81" />
+          <stop
+             path="c -33.3333,0  -66.6667,0  -100,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop83" />
+          <stop
+             path="c 0,-33.3333  0,-66.6667  0,-100"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop85" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient218"
+       gradientUnits="userSpaceOnUse"
+       x="0"
+       y="0">
+      <meshrow
+         id="meshrow230">
+        <meshpatch
+           id="meshpatch228">
+          <stop
+             path="c 33.3333,0  66.6667,0  100,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop220" />
+          <stop
+             path="c 0,33.3333  0,66.6667  0,100"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop222" />
+          <stop
+             path="c -33.3333,0  -66.6667,0  -100,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop224" />
+          <stop
+             path="c 0,-33.3333  0,-66.6667  0,-100"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop226" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
+</svg>

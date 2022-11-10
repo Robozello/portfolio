@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/second.css">
+    <link rel="stylesheet" href="./css/first.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <div class="header__logoblock">
+                        <h4 class="header__logo">Logo</h4>
+                    </div>
+                    <div class="header__res">
+                        <div class="header__navigation">
+                            <ul class="header__nav">
+                                <li class="header__navelement"><a href="#" class="header__link">Products</a></li>
+                                <li class="header__navelement"><a href="#" class="header__link">Deliver</a></li>
+                                <li class="header__navelement"><a href="#" class="header__link">Locations</a></li>
+                                <li class="header__navelement"><a href="#" class="header__link">About us</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__icons">
+                            <img src="./img/cart.svg" alt="cart">
+                            <img src="./img/user.svg" alt="user">
+                        </div>
+                    </div>
+                    <div class="header__burger" onclick="Menu()">
+                        <div class="header__line"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="aboutus" >
+            <div class="aboutus__container container">
+                <div class="aboutus__header" data-aos="fade-down">
+                    <h4 class="aboutus__title">About us</h4>
+                </div>
+                <div class="aboutus__body">
+                    <div class="aboutus__block1" data-aos="fade-right">
+                        <div class="aboutus__text">Cras lacinia mattis neque. In velit urna, interdum vitae ante mollis, laoreet bibendum diam. Aliquam erat volutpat. Nam semper leo eu fringilla mattis. In sit amet tempus nulla. Pellentesque aliquam lacinia leo at facilisis. Mauris pellentesque fermentum cursus. Aenean elementum nibh eu justo rhoncus feugiat. Ut sed orci condimentum, aliquet erat eu, molestie tellus. Phasellus vitae egestas nulla.</div>
+                    </div>
+                    <div class="aboutus__block2" data-aos="fade-left">
+                        <img src="./img/aboutus.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="SecGreenprod">
+            <div class="Greenprod__container container" data-aos="fade-right">
+                <div class="Greenprod__body">
+                    <div class="Greenprod__block1 SecGreenprod__block1">
+                            <img src="./img/map.jpg" alt="vegetables" class="Greenprod__img">
+                    </div>
+                    <div class="Greenprod__block2 SecGreenprod__block2">
+                        <h4 class="Greenprod__title">Office </h4>
+                        <p class="Greenprod__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur, tellus a aliquam vulputate, eros massa ultricies mi, nec viverra tortor mauris eleifend lectus. 
+                            Integer consectetur, tellus a aliquam vulputate, eros massa ultricies mi, nec viverra tortor mauris eleifend lectus. </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="plus">
+            <div class="plus__container container" >
+                <div class="plus__header" data-aos="fade-down">
+                    <h4 class="aboutus__title">Why we</h4>
+                </div>
+                <div class="plus__body" data-aos="fade-up">
+                    <div class="plus__pr">
+                        <img src="./img/broccoli.svg" alt="">
+                        <div class="plus__title">Green products </div>
+                        <div class="plus__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur.</div>   
+                    </div>
+                    <div class="plus__pr">
+                        <img src="./img/broccoli.svg" alt="">
+                        <div class="plus__title">Green products </div>
+                        <div class="plus__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur.</div>   
+                    </div>
+                    <div class="plus__pr">
+                        <img src="./img/broccoli.svg" alt="">
+                        <div class="plus__title">Green products </div>
+                        <div class="plus__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur.</div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="SecGreenprod">
+            <div class="Greenprod__container container" data-aos="fade-right">
+                <div class="Greenprod__body">
+                    <div class="Greenprod__block1 SecGreenprod__block1">
+                            <img src="./img/deliverjpg.jpg" alt="vegetables" class="Greenprod__img">
+                    </div>
+                    <div class="Greenprod__block2 SecGreenprod__block2">
+                        <h4 class="Greenprod__title">Deliver</h4>
+                        <p class="Greenprod__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur, tellus a aliquam vulputate, eros massa ultricies mi, nec viverra tortor mauris eleifend lectus. 
+                            Integer consectetur, tellus a aliquam vulputate, eros massa ultricies mi, nec viverra tortor mauris eleifend lectus. </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="contactus">
+            <div class="contactus__container container">
+                <div class="contactus__header" data-aos="fade-down">
+                    <h4 class="aboutus__title">Contact Us</h4>
+                </div>
+                <div class="contactus__body">
+                    <div class="contactus__block1" data-aos="fade-right">
+                        <form class="contactus__form">
+                            <div class="contactus__inputcon">
+                                <input type="text" class="contactus__inp" placeholder="Name">
+                                <input type="text" class="contactus__inp" placeholder="Last name">
+                            </div>
+                            <input type="email" class="contactus__inp longinp" placeholder="E-mail">
+                            <textarea name="" id="" placeholder="Your message" class="contactus__area"></textarea>
+                            <button class="contactus__btn">Send</button>
+                        </form>
+                    </div>
+                    <div class="contactus__block2" data-aos="fade-right">
+                        <div class="contactus__line"></div>
+                        <div class="contactus__text">or</div>
+                        <div class="contactus__line"></div>
+                    </div>
+                    <div class="contactus__block3" data-aos="fade-left">
+                        <div class="contactus__subblock1">
+                            <div class="contactus__subtitle">E-mail</div>
+                            <div class="contactus__subtext">example@gmail.com</div>
+                        </div>
+                        <div class="contactus__subblock2">
+                            <div class="contactus__subtitle">Phone</div>
+                            <div class="contactus__subtext">+1 000 000 00</div>
+                        </div>
+                        <div class="contactus__subblock3">
+                            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt=""></a>
+                            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/640px-Facebook_icon_2013.svg.png" alt=""></a>
+                            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" data-aos="fade-up">
+            <div class="footer__container container">
+                <div class="footer__body">
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Company Info</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">About Us</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Carrier</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">We are hiring</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Blog</a></li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Legal</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">About Us</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Carrier</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">We are hiring</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Blog</a></li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Features</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Business Marketing</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">User Analytic</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Live Chat</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Unlimited Support</a></li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Resources</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">IOS & Android</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Watch a Demo</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Customers</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">API</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        </div>
+</body>
+
+<script>
+    function Menu(){
+        let burger = document.querySelector(".header__burger")
+        let menu = document.querySelector(".header__res")
+        burger.classList.toggle("header__actburger");
+        menu.classList.toggle("header__actres");
+    }
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+</html>

@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.container{
+    overflow: hidden;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+.header {
+    margin: 10px 0 30px 0;
+}
+.header__body {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    font-weight: 600;
+    font-size: 64px;
+    color: #394955;
+}
+.header__navigation {
+    align-self: center;
+}
+.header__nav {
+    display: flex;
+
+}
+.header__res{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header__navelement + .header__navelement{
+    margin: 0 0 0 40px;
+}
+.header__link {
+    color: #000000;
+    font-size: 32px;
+}
+.header__icons {
+    align-self: center;
+}
+.header__icons img{
+    width: 100%;
+    max-width: 40px;
+    height: 100%;
+    max-height: 40px;
+    margin: 0 0 0 40px;
+    cursor: pointer;
+}
+.header__burger{
+    margin: 0 20px 0 20px;
+    align-self: center;
+    display: none;
+    position: relative;
+    height: 25px;
+    width: 50px;
+    transition: all 0.8s ease;
+}
+.header__line{
+    position: absolute;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2.4px;
+    top: 50%;
+    transform: rotateY(50%);
+    transition: all 0.8s ease;
+}
+.header__burger:before{
+    transition: all 0.8s ease;
+    content: "";
+    width: 50px;
+    height: 2.4px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header__burger:after{
+    transition: all 1.6s ease;
+    content: "";
+    width: 100%;
+    height: 2.4px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.header__actburger div{
+    display: none;
+}
+.header__actburger:before{
+    top: 0;
+    left: 0;
+    transform: rotate(-45deg);
+}
+.header__actburger:after{
+    top: 0;
+    right: 0;
+    transform: rotate(45deg);
+}
+
+@media (max-width:952px) {
+    .header__res{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        transition: all 1.6s linear;
+        z-index: 99;
+        position: absolute;
+        top: -160%;
+        left: 0;
+        width: 100%;
+        min-height: calc(100vh - 90px);
+        background-color: #ffffff;
+    }
+    .header__burger{
+        display: block;
+    }
+    .header__actres{
+        top: 90px;
+        left: 0;
+    }
+    .header__nav{
+        flex-direction: column;
+    }
+    .header__navelement + .header__navelement{
+        margin: 20px 0 0 0;
+    } 
+    .header__icons{
+        display: flex;
+        width: 160px;
+        justify-content: space-between;
+        margin: 20px 0 0 0;
+    }
+    .header__icons img{
+        margin: 0;
+    }
+}
+
+
+.main{
+    flex: 1 1 auto;
+}
+
+.registr {
+}
+.registr__container {
+}
+.registr__header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+}
+.registr__body {
+    display: flex;
+}
+.registr__block1 {
+    flex: 0 50%;
+}
+.registr__block1 img{
+    width: 90%;
+    object-fit: cover;
+}
+.registr__block2 {
+    flex: 0 50%;
+}
+.registr__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.registr__title {
+    font-size: 52px;
+    font-weight: 600;
+    margin: 100px 0 25px 0;
+}
+.registr__two {
+    display: flex;
+    justify-content: space-between;
+}
+.registr__inpblock {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+    height:60px;
+}
+.registr__two .registr__inpblock{
+    width: 45%;
+}
+.sminp {
+    width: 100%;
+    position: absolute;
+    border-bottom: 3px solid #000000;
+    border-radius: 2px;
+    background-color: transparent;
+    outline: none;
+    font-size: 36px;
+    padding: 4px 3px;
+    z-index: 6;
+}
+.op {
+    transition: all 0.8s;
+    width: 100%;
+    line-height: 0;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    font-size: 36px;
+    z-index: 2;
+    font-style: italic;
+}
+.sminp:focus{
+}
+.sminp:focus ~ .op,
+.sminp:valid ~ .op{
+    top: -12px;
+    left: 0;
+    font-size: 22px;
+}
+.registr__terms {
+}
+.registr__checkbox {
+    margin: 20px 0 0 0;
+    display: flex;
+}
+.ch{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+.registr__info {
+    margin: 0 0 0 15px;
+    font-size: 32px;
+    align-self: center;
+}
+.btn {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 0;
+    font-size: 48px;
+    color: #ffffff;
+    background-color: #1B5080;
+    border-radius: 120px;
+    align-self: center;
+    margin: 70px 0 0 0;
+}
+@media (max-width: 840px) {
+    .registr__body {
+        flex-direction: column-reverse;
+    }
+    .registr__block2 {
+        padding: 0 18px;
+    }
+}
+@media (max-width: 420px) {
+    .registr__two {
+        flex-direction: column;
+    }
+    .registr__two .registr__inpblock{
+        width: 100%;
+    }
+    .registr__header {
+        font-size: 42px;
+    }
+    .op {
+        line-height: 0;
+        font-size: 28px;
+    }
+    .btn {
+        font-size: 32px;
+    }
+}
+
+
+.footer {
+    margin: 270px 0 0 0;
+}
+.footer__container {
+}
+.footer__body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__ul + .footer__ul{
+    margin: 0 30px 0 30px;
+}
+.footer__li + .footer__li {
+    margin: 0 0 10px 0;
+}
+.footer__title {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.footer__a {
+    font-family: Montserrat;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+}
+@media (max-width: 752px) {
+    .footer__body{
+        justify-content: center;
+    }
+    .footer__ul{
+        margin: 80px 0 0 0;
+    }
+    .footer__ul + .footer__ul{
+        margin: 80px 30px 0 30px;
+    }
+}

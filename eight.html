@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/eight.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <div class="header__logo">
+                        <h4 class="logo">Logo</h4>
+                    </div>
+                    <div class="logo__res"></div>
+                    <div class="header__res">
+                        <div class="header__navigation">
+                            <ul class="header__nav">
+                                <li class="header__navelement"><a href="#" class="header__link">Shop</a></li>
+                                <li class="header__navelement"><a href="#" class="header__link">Brands</a></li>
+                                <li class="header__navelement"><a href="#" class="header__link">About us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__burger" onclick="Menu()">
+                        <div class="header__line"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="producthead">
+                <div class="producthead__container container">
+                    <div class="producthead__body">
+                        <div class="producthead__block">
+                            <div class="producthead__slider">
+                                <div class="producthead__slidercontainer">
+                                    <div class="producthead__slide">
+                                        <img src="./img/pixel7(1).png" alt="">
+                                    </div>
+                                    <div class="producthead__slide">
+                                        <img src="./img/pixel7.png" alt="">
+                                    </div>
+                                    <div class="producthead__slide">
+                                        <img src="./img/pixel7(2).png" alt="">
+                                    </div>
+                                    <div class="producthead__slide">
+                                        <img src="./img/pixel7(3).png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="producthead__dots">
+                                <div class="producthead__dot active" onclick="change(0)"></div>
+                                <div class="producthead__dot" onclick="change(1)"></div>
+                                <div class="producthead__dot" onclick="change(2)"></div>
+                                <div class="producthead__dot" onclick="change(3)"></div>
+                            </div>
+                        </div>
+                        
+                       
+                        <div class="producthead__desc">
+                            <div class="producthead__title">Google pixel 7pro</div>
+                            <div class="producthead__text">Cras lacinia mattis neque. In velit urna, interdum vitae ante mollis, laoreet bibendum diam. Aliquam erat volutpat. Aliquam lacinia leo at facilisis. Mauris pellentesque fermentum cursus. Aenean elementum nibh eu justo rhoncus feugiat. Ut sed orci condimentum, aliquet erat eu, molestie tellus. Phasellus vitae egestas nulla.
+                                Cras lacinia mattis neque. In velit urna, interdum vitae ante mollis, laoreet bibendum diam. Aliquam erat volutpat. Aliquam lacinia leo at facilisis. Mauris pellentesque fermentum cursus. Aenean elementum nibh eu justo rhoncus feugiat. Ut sed orci condimentum, aliquet erat eu, molestie tellus. Phasellus vitae egestas nulla.
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="productdesc">
+                <div class="productdesc__container container">
+                    <div class="productdesc__header">
+                        <div class="productdesc__switch" onclick="changesec(0)">
+                            <div class="productdesc__title">Specs</div>
+                            <div class="productdesc__hline hactive"></div>
+                        </div>
+                        <div class="productdesc__switch" onclick="changesec(1)">
+                            <div class="productdesc__title">Images</div>
+                            <div class="productdesc__hline"></div>
+                        </div>
+                        <div class="productdesc__switch" onclick="changesec(2)">
+                            <div class="productdesc__title">Videos</div>
+                            <div class="productdesc__hline"></div>
+                        </div>
+                    </div>
+                    <div class="productdesc__body">
+                        <div class="productdesc__slider">
+                            <div class="productdesc__slidercontainer">
+                                <div class="productdesc__slide">
+                                    <div class="productdesc__bigline"></div>
+                                    <div class="productdesc__info"><div class="productdesc__text">cpu</div><div class="productdesc__text">Google tensor g2</div></div>
+                                    <div class="productdesc__line"></div>
+                                    <div class="productdesc__info"><div class="productdesc__text">memory</div><div class="productdesc__text">256GB</div></div>
+                                    <div class="productdesc__line"></div>
+                                    <div class="productdesc__info"><div class="productdesc__text">ram</div><div class="productdesc__text">12GB</div></div>
+                                    <div class="productdesc__line"></div>
+                                    <div class="productdesc__info"><div class="productdesc__text">cpu</div><div class="productdesc__text">Google tensor g2</div></div>
+                                    <div class="productdesc__line"></div>
+                                    <div class="productdesc__info"><div class="productdesc__text">memory</div><div class="productdesc__text">256GB</div></div>
+                                    <div class="productdesc__line"></div>
+                                    <div class="productdesc__info"><div class="productdesc__text">ram</div><div class="productdesc__text">12GB</div></div>
+                                    <div class="productdesc__line"></div>
+                                </div>
+                                <div class="productdesc__slide">
+                                    <div class="productdesc__images">
+                                        <img src="./img/pixel7.png" alt="">
+                                        <img src="./img/pixel7(1).png" alt="">
+                                        <img src="./img/pixel7(2).png" alt="">
+                                        <img src="./img/pixel7(3).png" alt="">
+                                    </div>
+                                </div>
+                                <div class="productdesc__slide">
+                                    <div class="productdesc__video">
+                                        <iframe frameborder="0" allowfullscreen class="video" src="https://www.youtube.com/embed/sYn_Heq8HHI"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" data-aos="fade-up">
+            <div class="footer__container container">
+                <div class="footer__body">
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Company Info</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">About Us</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Carrier</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">We are hiring</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Blog</a></li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Legal</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">About Us</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Carrier</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">We are hiring</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Blog</a></li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Features</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Business Marketing</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">User Analytic</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Live Chat</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Unlimited Support</a></li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Resources</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">IOS & Android</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Watch a Demo</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Customers</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">API</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>  
+<script>
+    function Menu(){
+        let burger = document.querySelector(".header__burger")
+        let menu = document.querySelector(".header__res")
+        burger.classList.toggle("header__actburger");
+        menu.classList.toggle("header__actres");
+    }
+    let tpm = 0
+    function change(n){
+        let dot = document.querySelectorAll('.producthead__dot')
+        dot[tpm].classList.toggle("active")
+        dot[n].classList.toggle("active")
+        let caruselColumn = document.querySelectorAll('.producthead__slide')
+        const caruselSlide = document.querySelector('.producthead__slidercontainer');
+        let size = caruselColumn[0].clientWidth;   
+        caruselSlide.style.transform = 'translateX(' + (-size * (n)) + 'px)';
+        tpm = n
+    }
+    function changesec(n){
+        let dot = document.querySelectorAll('.productdesc__hline')
+        dot[tpm].classList.toggle("hactive")
+        dot[n].classList.toggle("hactive")
+        let caruselColumn = document.querySelectorAll('.productdesc__slide')
+        const caruselSlide = document.querySelector('.productdesc__slidercontainer');
+        let size = caruselColumn[0].clientWidth;   
+        caruselSlide.style.transform = 'translateX(' + (-size * (n)) + 'px)';
+        tpm = n
+    }
+</script>
+</script>
+</html>
