@@ -86,10 +86,10 @@ body {
     color: #000000;
     font-size: 32px;
 }
-.header__icons {
+.header__icon {
     align-self: center;
 }
-.header__icons img{
+.header__icon img{
     width: 100%;
     max-width: 40px;
     height: 100%;

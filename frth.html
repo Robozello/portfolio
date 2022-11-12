@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/frth.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <div class="header__logoblock">
+                        <h4 class="header__logo">Logo</h4>
+                    </div>
+                    <div class="header__res">
+                        <nav class="header__navigation">
+                            <ul class="header__nav">
+                                <li class="header__navelement"><a href="#" class="header__link">Ofline Stores</a></li>
+                                <li class="header__navelement"><a href="#" class="header__link">Store</a></li>
+                                <li class="header__navelement"><a href="#" class="header__link">Partners</a></li>
+                                <li class="header__navelement"><a href="#" class="header__link">About us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__burger" onclick="Menu()">
+                        <div class="header__line"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <main class="main">
+            <div class="main__container container">
+                <section class="filter" id="filter">
+                
+                <div class="filter__body">
+                    <h5 class="filter__title">Year:</h5>
+                    <div class="filter__block">
+                        <h5 class="filter__subtitle">From:</h5>
+                        <div class="custom-select">
+                            <select>
+                                <option ></option>
+                                <option selected>None</option>
+                                <option>1800</option>
+                                <option>1900</option>
+                                <option>1930</option>
+                                <option>1960</option>
+                                <option>1990</option>
+                                <option>2020</option>
+                            </select> 
+                        </div>
+                    </div>
+                    <div class="filter__block">
+                        <h5 class="filter__subtitle">To:</h5>
+                        <div class="custom-select">
+                            <select>
+                                <option></option>
+                                <option selected>None</option>
+                                <option>1800</option>
+                                <option>1900</option>
+                                <option>1930</option>
+                                <option>1960</option>
+                                <option>1990</option>
+                                <option>2020</option>
+                            </select> 
+                        </div>
+                        
+                        
+                    </div>
+
+
+                    <div class="filter__block">
+                        <h5 class="filter__title">Book genre:</h5>
+                    </div>
+                    <div class="filter__con">
+                        <label>
+                            genre
+                            <input type="checkbox" id="genre" value="genre">
+                            <span class="filter__checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="filter__con">
+                        <label>
+                            genre
+                            <input type="checkbox" id="genre" value="genre">
+                            <span class="filter__checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="filter__con">
+                        <label>
+                            genre
+                            <input type="checkbox" id="genre" value="genre">
+                            <span class="filter__checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="filter__con">
+                        <label>
+                            genre
+                            <input type="checkbox" id="genre" value="genre">
+                            <span class="filter__checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="filter__con">
+                        <label>
+                            genre
+                            <input type="checkbox" id="genre" value="genre">
+                            <span class="filter__checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="filter__con">
+                        <label>
+                            genre
+                            <input type="checkbox" id="genre" value="genre">
+                            <span class="filter__checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="filter__con">
+                        <label>
+                            genre
+                            <input type="checkbox" id="genre" value="genre">
+                            <span class="filter__checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="filter__con">
+                        <label>
+                            genre
+                            <input type="checkbox" id="genre" value="genre">
+                            <span class="filter__checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="products">
+                <div class="products__container">
+                    <div class="products__header" onclick="Filter()">
+                        Filter
+                    </div>
+                    <div class="products__body">
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__block">
+                            <img class="products__img" src="./img/book_cover.jpg" alt="Harry Potter">
+                            <div class="products__desc">
+                                <div class="products__subdesc">
+                                    <div class="products__title">Author:</div>
+                                    <div class="products__text">Rowling</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Year:</div>
+                                    <div class="products__text">2007</div>
+                                </div>
+                                <div class="products__subdesc">
+                                    <div class="products__title">Genre:</div>
+                                    <div class="products__text">novel</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+            
+            
+        </main>       
+
+
+        <footer class="footer" >
+            <div class="footer__container container">
+                <div class="footer__body">
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Company Info</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">About Us</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Carrier</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">We are hiring</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Blog</a></li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Legal</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">About Us</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Carrier</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">We are hiring</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Blog</a></li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Features</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Business Marketing</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">User Analytic</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Live Chat</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Unlimited Support</a></li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__li"><h4 class="footer__title">Resources</h4></li>
+                        <li class="footer__li"><a href="#" class="footer__a">IOS & Android</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Watch a Demo</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">Customers</a></li>
+                        <li class="footer__li"><a href="#" class="footer__a">API</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        var x, i, j, l, ll, selElmnt, a, b, c;
+        x = document.getElementsByClassName("custom-select");
+        l = x.length;
+        for (i = 0; i < l; i++) {
+          selElmnt = x[i].getElementsByTagName("select")[0];
+          ll = selElmnt.length;
+          a = document.createElement("DIV");
+          a.setAttribute("class", "select-selected");
+          a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+          x[i].appendChild(a);
+          b = document.createElement("DIV");
+          b.setAttribute("class", "select-items select-hide");
+          for (j = 1; j < ll; j++) {
+            c = document.createElement("DIV");
+            c.innerHTML = selElmnt.options[j].innerHTML;
+            c.addEventListener("click", function(e) {
+                var y, i, k, s, h, sl, yl;
+                s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                sl = s.length;
+                h = this.parentNode.previousSibling;
+                for (i = 0; i < sl; i++) {
+                  if (s.options[i].innerHTML == this.innerHTML) {
+                    s.selectedIndex = i;
+                    h.innerHTML = this.innerHTML;
+                    y = this.parentNode.getElementsByClassName("same-as-selected");
+                    yl = y.length;
+                    for (k = 0; k < yl; k++) {
+                      y[k].removeAttribute("class");
+                    }
+                    this.setAttribute("class", "same-as-selected");
+                    break;
+                  }
+                }
+                h.click();
+            });
+            b.appendChild(c);
+          }
+          x[i].appendChild(b);
+          a.addEventListener("click", function(e) {
+              e.stopPropagation();
+              closeAllSelect(this);
+              this.nextSibling.classList.toggle("select-hide");
+              this.classList.toggle("select-arrow-active");
+            });
+        }
+        function closeAllSelect(elmnt) {
+          var x, y, i, xl, yl, arrNo = [];
+          x = document.getElementsByClassName("select-items");
+          y = document.getElementsByClassName("select-selected");
+          xl = x.length;
+          yl = y.length;
+          for (i = 0; i < yl; i++) {
+            if (elmnt == y[i]) {
+              arrNo.push(i)
+            } else {
+              y[i].classList.remove("select-arrow-active");
+            }
+          }
+          for (i = 0; i < xl; i++) {
+            if (arrNo.indexOf(i)) {
+              x[i].classList.add("select-hide");
+            }
+          }
+        }
+        document.addEventListener("click", closeAllSelect);
+        </script>
+        <script>
+            document.addEventListener('mouseup', function(e) {
+            var container = document.querySelector(".filter")
+            if (!container.contains(e.target)) {
+                container.classList.remove("filter__active");
+            }
+        });
+        </script>
+    <script>
+        function Menu(){
+            let burger = document.querySelector(".header__burger")
+            let menu = document.querySelector(".header__res")
+            let title = document.querySelector(".poster__body")
+            burger.classList.toggle("header__actburger");
+            menu.classList.toggle("header__actres");
+            title.classList.toggle("none");
+        }
+        function Filter(){
+            let filter = document.querySelector(".filter")
+            filter.classList.toggle("filter__active");
+        }
+    </script>
+</body>
+</html>
